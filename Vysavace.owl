@@ -1,0 +1,1653 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ambroma1/osw/Vysavace"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ambroma1/osw/Vysavace">
+    <Prefix name="" IRI="http://www.semanticweb.org/ambroma1/osw/Vysavace"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#DefinovaneTridy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MalyObjem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MokreVysavani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MytiPodlah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParniCisteni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PridavneTridy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimitivniTridy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SacekDoVysavace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StredniObjem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TepaniKobercu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test1_-_maOvladani_hlucnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test2_-_AutonomniVysavac_ma_RucniOvladani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test3_-_maVydrzBaterie_jak_Mala_tak_StredniBaterie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test4_-_maFunkciFunkce_konzistentni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TestovaciTridy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VelkyObjem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VysavaceAutonomni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VysavaceBezSacku"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VysavaceDoDomacnosti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VysavaceDoPrumyslu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VysavaceMokreVysavani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VysavaceNaZahradu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VysavaceProAlergiky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vytirani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#AutonomniOvladani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Baterie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Filtr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Hlucnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaBaterie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaHlucnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MikroFiltr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#NizkaSpotrebaEnergie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Ovladani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrachovyFiltr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prislusenstvi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prostor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prumysl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SpotrebaEnergie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniBaterie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniHlucnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniSpotrebaEnergie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TextilniFiltr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TypEnergie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#UhlikovyFiltr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelikostBaterie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaBaterie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaSpotrebaEnergie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VodniFiltr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysokaHlucnost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Zaharada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#ZeSite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeFunkci"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#jeObjemem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maFunkci"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#maObjem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeMirouHlukuPro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeOvladano"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jePrislusenstvimPro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeSpotrebouEnergiePro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVNemVyuzivano"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVydrziBateriePro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVyuzivanTypemEnergiePro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVydrzBaterie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Objem"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PridavneTridy"/>
+            <ObjectUnionOf>
+                <Class IRI="#MalyObjem"/>
+                <Class IRI="#StredniObjem"/>
+                <Class IRI="#VelkyObjem"/>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VysavaceAutonomni"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#AutonomniOvladani"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Baterie"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VysavaceBezSacku"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+            <ObjectComplementOf>
+                <Class IRI="#SacekDoVysavace"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VysavaceDoDomacnosti"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VysavaceDoPrumyslu"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prumysl"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VysavaceMokreVysavani"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#maFunkci"/>
+                <Class IRI="#MokreVysavani"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VysavaceNaZahradu"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Zaharada"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VysavaceProAlergiky"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+                <Class IRI="#SacekDoVysavace"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Hlucnost"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PridavneTridy"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaHlucnost"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniHlucnost"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysokaHlucnost"/>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Ovladani"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PridavneTridy"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#AutonomniOvladani"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SpotrebaEnergie"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PridavneTridy"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#NizkaSpotrebaEnergie"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniSpotrebaEnergie"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaSpotrebaEnergie"/>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TypEnergie"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PridavneTridy"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Baterie"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#ZeSite"/>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelikostBaterie"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PridavneTridy"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaBaterie"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniBaterie"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaBaterie"/>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#MalyObjem"/>
+        <Class IRI="#Objem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MokreVysavani"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MokreVysavani"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MikroFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TextilniFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VodniFiltr"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MytiPodlah"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objem"/>
+        <Class IRI="#PridavneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParniCisteni"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SacekDoVysavace"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prislusenstvi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StredniObjem"/>
+        <Class IRI="#Objem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TepaniKobercu"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test1_-_maOvladani_hlucnost"/>
+        <Class IRI="#TestovaciTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test1_-_maOvladani_hlucnost"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaHlucnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test2_-_AutonomniVysavac_ma_RucniOvladani"/>
+        <Class IRI="#TestovaciTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test2_-_AutonomniVysavac_ma_RucniOvladani"/>
+        <Class IRI="#VysavaceAutonomni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test2_-_AutonomniVysavac_ma_RucniOvladani"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test3_-_maVydrzBaterie_jak_Mala_tak_StredniBaterie"/>
+        <Class IRI="#TestovaciTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test3_-_maVydrzBaterie_jak_Mala_tak_StredniBaterie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVydrzBaterie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaBaterie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test3_-_maVydrzBaterie_jak_Mala_tak_StredniBaterie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVydrzBaterie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniBaterie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test4_-_maFunkciFunkce_konzistentni"/>
+        <Class IRI="#TestovaciTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test4_-_maFunkciFunkce_konzistentni"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maFunkci"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VelkyObjem"/>
+        <Class IRI="#Objem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VysavaceAutonomni"/>
+        <Class IRI="#DefinovaneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VysavaceBezSacku"/>
+        <Class IRI="#DefinovaneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VysavaceDoDomacnosti"/>
+        <Class IRI="#DefinovaneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VysavaceDoPrumyslu"/>
+        <Class IRI="#DefinovaneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VysavaceMokreVysavani"/>
+        <Class IRI="#DefinovaneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VysavaceNaZahradu"/>
+        <Class IRI="#DefinovaneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VysavaceProAlergiky"/>
+        <Class IRI="#DefinovaneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vytirani"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#AutonomniOvladani"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Ovladani"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Baterie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TypEnergie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac"/>
+        <ObjectComplementOf>
+            <Class IRI="#SacekDoVysavace"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maObjem"/>
+            <Class IRI="#StredniObjem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysokaHlucnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MikroFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TextilniFiltr"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniSpotrebaEnergie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#ZeSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prostor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Filtr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prislusenstvi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+        <Class IRI="#PridavneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Filtr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Hlucnost"/>
+        <Class IRI="#PridavneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaBaterie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelikostBaterie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaHlucnost"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Hlucnost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MikroFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Filtr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maFunkci"/>
+            <Class IRI="#MokreVysavani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maFunkci"/>
+            <Class IRI="#MytiPodlah"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maFunkci"/>
+            <Class IRI="#ParniCisteni"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maFunkci"/>
+            <Class IRI="#TepaniKobercu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maFunkci"/>
+            <Class IRI="#Vytirani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maObjem"/>
+            <Class IRI="#VelkyObjem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniHlucnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MikroFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TextilniFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VodniFiltr"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaSpotrebaEnergie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#ZeSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prumysl"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#NizkaSpotrebaEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SpotrebaEnergie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Ovladani"/>
+        <Class IRI="#PridavneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrachovyFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Filtr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prislusenstvi"/>
+        <Class IRI="#PrimitivniTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prostor"/>
+        <Class IRI="#PrimitivniTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prumysl"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prostor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac"/>
+        <ObjectComplementOf>
+            <Class IRI="#SacekDoVysavace"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maObjem"/>
+            <Class IRI="#VelkyObjem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysokaHlucnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MikroFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TextilniFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#UhlikovyFiltr"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaSpotrebaEnergie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#ZeSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prumysl"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+        <ObjectComplementOf>
+            <Class IRI="#SacekDoVysavace"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maObjem"/>
+            <Class IRI="#MalyObjem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaHlucnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#AutonomniOvladani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MikroFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TextilniFiltr"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#NizkaSpotrebaEnergie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Baterie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVydrzBaterie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaBaterie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Ovladani"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maObjem"/>
+            <Class IRI="#StredniObjem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaHlucnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <Class IRI="#SacekDoVysavace"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniSpotrebaEnergie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#ZeSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SpotrebaEnergie"/>
+        <Class IRI="#PridavneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniBaterie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelikostBaterie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniHlucnost"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Hlucnost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniSpotrebaEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SpotrebaEnergie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TextilniFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Filtr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac"/>
+        <ObjectComplementOf>
+            <Class IRI="#SacekDoVysavace"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maObjem"/>
+            <Class IRI="#MalyObjem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaHlucnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MikroFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TextilniFiltr"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Baterie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVydrzBaterie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniBaterie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TypEnergie"/>
+        <Class IRI="#PridavneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#UhlikovyFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Filtr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelikostBaterie"/>
+        <Class IRI="#PridavneTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaBaterie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelikostBaterie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaSpotrebaEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SpotrebaEnergie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VodniFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Filtr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+        <Class IRI="#PrimitivniTridy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maObjem"/>
+            <Class IRI="#VelkyObjem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysokaHlucnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <Class IRI="#SacekDoVysavace"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrachovyFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TextilniFiltr"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaSpotrebaEnergie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#ZeSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Zaharada"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel"/>
+        <ObjectComplementOf>
+            <Class IRI="#SacekDoVysavace"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maObjem"/>
+            <Class IRI="#VelkyObjem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaHlucnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrachovyFiltr"/>
+                <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#UhlikovyFiltr"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaSpotrebaEnergie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#ZeSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken"/>
+        <ObjectComplementOf>
+            <Class IRI="#SacekDoVysavace"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maObjem"/>
+            <Class IRI="#MalyObjem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniHlucnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VodniFiltr"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#NizkaSpotrebaEnergie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Baterie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+            <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysokaHlucnost"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Hlucnost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Zaharada"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prostor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#ZeSite"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TypEnergie"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#MalyObjem"/>
+        <Class IRI="#StredniObjem"/>
+        <Class IRI="#VelkyObjem"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MokreVysavani"/>
+        <Class IRI="#MytiPodlah"/>
+        <Class IRI="#ParniCisteni"/>
+        <Class IRI="#TepaniKobercu"/>
+        <Class IRI="#Vytirani"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Objem"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Hlucnost"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Ovladani"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SpotrebaEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TypEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelikostBaterie"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#AutonomniOvladani"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RucniOvladani"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Baterie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#ZeSite"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Domacnost"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prumysl"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Zaharada"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#HepaFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MikroFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrachovyFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TextilniFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#UhlikovyFiltr"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VodniFiltr"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaBaterie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniBaterie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaBaterie"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MalaHlucnost"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniHlucnost"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysokaHlucnost"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#NizkaSpotrebaEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#StredniSpotrebaEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelkaSpotrebaEnergie"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jeFunkci"/>
+        <ObjectProperty IRI="#maFunkci"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#jeObjemem"/>
+        <ObjectProperty IRI="#maObjem"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeMirouHlukuPro"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeOvladano"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jePrislusenstvimPro"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeSpotrebouEnergiePro"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVNemVyuzivano"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVydrziBateriePro"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVydrzBaterie"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVyuzivanTypemEnergiePro"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#jeObjemem"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#maObjem"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeMirouHlukuPro"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeOvladano"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeSpotrebouEnergiePro"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVydrziBateriePro"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVyuzivanTypemEnergiePro"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVydrzBaterie"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jeFunkci"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#jeObjemem"/>
+        <Class IRI="#Objem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maFunkci"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#maObjem"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeMirouHlukuPro"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Hlucnost"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeOvladano"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Ovladani"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jePrislusenstvimPro"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prislusenstvi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeSpotrebouEnergiePro"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SpotrebaEnergie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVNemVyuzivano"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prostor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVydrziBateriePro"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelikostBaterie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVyuzivanTypemEnergiePro"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TypEnergie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVydrzBaterie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeFunkci"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#jeObjemem"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maFunkci"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Funkce"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#maObjem"/>
+        <Class IRI="#Objem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeMirouHlukuPro"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeOvladano"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jePrislusenstvimPro"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeSpotrebouEnergiePro"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVNemVyuzivano"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVydrziBateriePro"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#jeVyuzivanTypemEnergiePro"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Vysavac"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maMiruHluku"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Hlucnost"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maOvlodani"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Ovladani"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maPrislusenstvi"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prislusenstvi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maSpotrebuEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SpotrebaEnergie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maTypEnergie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TypEnergie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVydrzBaterie"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VelikostBaterie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#maVyuzitiV"/>
+        <Class IRI="http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#Prostor"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Test1_-_maOvladani_hlucnost</IRI>
+        <Literal>První testovací třída, která je nekonzistentní. Objektovou vlastnost &quot;maOvladani&quot;, která má obor hodnot &quot;Ovladani&quot;, se snaží přiřadit hodnotu z oboru hodnot &quot;Hlucnost&quot;, konkrétně &quot;MalaHlucnost&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Test2_-_AutonomniVysavac_ma_RucniOvladani</IRI>
+        <Literal>Druhá testovací třída je nekonzistetní. Řadí se mezi &quot;VysavaceAutonomni&quot; ale také &quot;maOvladani&quot; má nastaveno na &quot;RucniOvladani&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Test3_-_maVydrzBaterie_jak_Mala_tak_StredniBaterie</IRI>
+        <Literal>Třetí testovací třída, která je nekonzistentní. Snaží se přiřadit, že třída má jak &quot;MalaBaterie&quot;, tak &quot;StredniBaterie&quot; zároveň.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Test4_-_maFunkciFunkce_konzistentni</IRI>
+        <Literal>Čtvrtá testovací třída, která je konzistetní. Vlastnost &quot;maFunkci&quot; má nastaveno pouze na &quot;Funkce&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VysavaceAutonomni</IRI>
+        <Literal>Reprezentuje autonomní vysavače, které fungují nezávisle a samostatně bez nutnosti lidského zásahu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VysavaceBezSacku</IRI>
+        <Literal>Vysavače, které neobsahují sáček do vysavače.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VysavaceDoDomacnosti</IRI>
+        <Literal>Vysavače, které jsou vhodné do domácnosti.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VysavaceDoPrumyslu</IRI>
+        <Literal>Vysavače, které jsou vhodné do průmyslu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VysavaceMokreVysavani</IRI>
+        <Literal>Vysavače, které mají funkci mokrého vysavání.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VysavaceNaZahradu</IRI>
+        <Literal>Vysavače, které jsou vhodné na zahradu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VysavaceProAlergiky</IRI>
+        <Literal>Vysavače, které by měly být vhodné pro alergiky. Mají filtr pro dostatečnou filtraci pro alergiky a také musí obsahovat sáček, aby při řešení plnosti vysavače nemuseli přicházet do styku s alergeny.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#BezSackovyVysavac</IRI>
+        <Literal>Vysavače neobsahující sáček.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#MultifunkcniVysavac</IRI>
+        <Literal>Kombinují několik funkcí do jednoho zařízení, jako je tepání koberců, mytí podlah nebo parní čištění. Tyto vysavače jsou vysoce adaptabilní a poskytují uživatelům možnost účinně uklízet různé povrchy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#PrumyslovyVysavac</IRI>
+        <Literal>Vysavače vhodné do průmyslové oblasti.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#RobotickyVysavac</IRI>
+        <Literal>Vysavače, které mají autonomní ovládaní a vevyžadují tak manuální vysávání.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#SackovyVysavac</IRI>
+        <Literal>Vysavače obsahující sáček.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#TycovyVysavac</IRI>
+        <Literal>Reprezentující lehké a kompaktní vysavače s dlouhou tyčí, které jsou ideální pro rychlé úklidy a úzké prostory. Často jsou bezsáčkové a mohou být i bezdrátové, což zvyšuje jejich pohodlí při použití.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacListi</IRI>
+        <Literal>Speciálně navržené pro sběr listí a jiného zahradního odpadu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacNaPopel</IRI>
+        <Literal>Navrženy pro bezpečné a efektivní čištění popela z krbů, grilů a jiných zdrojů. Tyto vysavače mají speciální filtry a odolné konstrukce, které zabraňují poškození motoru nebo znečištění vzduchu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/marti/ontologies/2023/3/untitled-ontology-12#VysavacOken</IRI>
+        <Literal>Pro čištění oken a skleněných ploch.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+
